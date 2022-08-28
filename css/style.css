@@ -1,0 +1,251 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Sections */
+
+html{
+  font-size: 62.5%;
+  color: whitesmoke;
+}
+
+body{
+  /* background-color: rgb(182, 227, 228); */
+  background-color: rgb(31, 31, 33);
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  margin: 0%;
+  /* background-color:black; */
+  font-size: 2rem;
+}
+
+.main{
+    /* display: flex;
+    justify-content:space-evenly;
+    align-items:center; */
+    /* background-color: black; */
+    border-bottom: 1px black solid; 
+    padding-bottom: 100px;
+    padding-top:50px;
+}
+
+.buttonmain{
+  padding: .5em; 
+  background-color: rgb(227, 251, 55);
+  color: rgb(31, 31, 33);
+  border: 1px rgb(227, 251, 55) solid;
+  font-size: 2rem;
+  font-family: 'judson', serif; 
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+}
+
+.buttonmain:hover{
+  background-color: rgb(31, 31, 33);
+  color: rgb(227, 251, 55);
+}
+
+.section2{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 1px black solid;
+  font-size: 1.5rem;
+}
+
+.section3{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px black solid;
+  padding-bottom: 100px;
+}
+
+.section3 h1{
+  font-size: 50px;
+}
+
+.section4{
+  padding-top: 50px;
+  border-bottom: 1px black solid;
+  padding-bottom: 100px;
+}
+
+.section5{
+  padding-top: 50px;
+  border-bottom: 1px black solid;
+  padding-bottom: 100px;
+}
+
+
+.section5 div.column{
+  width: 400px;
+  height: 400px;
+  background-color: lightgreen;
+}
+
+/* Here ends Section 5 CSS */
+
+
+
+
+
+.section6{
+  padding-top: 50px;
+  border-bottom: 1px black solid;
+  padding-bottom: 100px;
+}
+
+.section6 p{
+
+  margin-bottom: 50px;
+}
+
+
+h1{
+  font-size: 8rem;
+  font-family: 'Archivo Black', sans-serif;
+  color: whitesmoke;
+}
+
+h2{
+  font-family: 'judson', serif; 
+}
+
+h3{
+  font-family: 'judson', serif;
+}
+
+p{
+  font-size: 2rem;
+  font-family: 'judson', serif;
+}
+
+span{
+  font-family: 'judson', serif;
+}
+
+.section2 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  font-family: 'pacifico', cursive;
+
+}
+
+ul h2{
+
+  color: #FF6B6B;
+  color: rgb(227, 251, 55);
+  font-family: 'pacifico', cursive;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+/* Images */
+
+.logo{
+  height:100px;
+}
+
+.mainpic{
+  height: 800px;
+  width: 600px;
+}
+
+/* .divformain{
+  height: 500px;
+  width: 600px;
+  border: ivory 3px solid;
+} */
+
+.naruto{
+  height: 300px;
+  width: 200px;
+}
+
+.juju{
+  height: 300px;
+  width: 200px;
+}
+
+.atttitan{
+  height: 300px;
+  width: 200px;
+}
+
+.cboy{
+  height: 300px;
+  width: 200px;
+}
+
+.sec3pic1{
+
+  height: 300px;
+  width: 300px;
+}
+
+.sec3pic2{
+
+  height: 300px;
+  width: 300px;
+}
+
+.sec4pic{
+  height: 600px;
+  width: 800px;
+}
+
+.whthair{
+  height: 400px;
+  width: 400px;
+}
+
+.orblu{
+  height: 400px;
+  width: 400px;
+}
+
+.sec6pic{
+  height: 600px;
+  width: 500px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
